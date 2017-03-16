@@ -3,7 +3,6 @@
 }
 
 body {
-
   font-family: 'Raleway', sans-serif;
 }
 
@@ -56,7 +55,7 @@ nav {
 
 .nav-a-tag:hover {
   padding-bottom: 5px;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 /****UPPER MAIN SECTION****/
@@ -109,12 +108,17 @@ article {
   margin: 20px auto;
 }
 
+.all-bottom-captions a {
+  text-decoration: none;
+}
+
 .all-bottom-captions {
   width: 130px;
   padding: 5px;
   background-color: #ffffff;
   border: 3px solid #25afc4;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer-a-tag:hover {
