@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  auto: 0;
+}
+
+/****HEADER & NAV****/
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+header {
+  height: 45px;
+  width: 100%;
+  padding: 10px 0px 5px 20px;
+  background-color: #00f2ff;
+}
+
+.nav-dog-img-section {
+  width: 25px;
+}
+
+nav {
+  width: 250px;
+  float: right;
+  margin-top: -40px;
+}
+
+
+.nav-li {
+  float: right;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.nav-a-tag {
+  display: inline;
+  padding: 4px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-a-tag:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ffffff;
+}
+
+/****UPPER MAIN SECTION****/
+
+#upper-section {
+  width: 100%;
+  height: 450px;
+  background: url(images/park.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.main-bottom-caption {
+  width: 150px;
+  margin: 0 auto;
+}
+
+/****BOTTOM MAIN SECTION****/
+
+#bottom-section {
+  width: 100%;
+  height: auto;
+  padding: 30px 15px;
+}
+
+article {
+  width: 33.3%;
+  text-align: center;
+}
+
+.top-caption {
+  margin: 26px;
+  text-align: center;
+}
+
+.bottom-caption {
+  margin: 20px auto;
+}
+
+.all-bottom-captions a {
+  text-decoration: none;
+  color: black;
+}
+
+.all-bottom-captions {
+  width: 130px;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 3px solid #25afc4;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-a-tag:hover {
+  color: #C9C9C9;
+
+}
+
+/****FOOTER****/
+
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: #25afc4;
+  color: #ffffff;
+  text-align: center
+}
+
+.footer-info #footer-title{
+  padding-top: 15px;
+}
+
+.social-media-ul{
+  margin: 0 auto;
+  padding: 15px 0px;
+}
+
+
+.social-media-icons {
+  display: inline;
+  padding: 20px;
+}
+
+.footer-a-tag {
+  color: #ffffff;
+}
+
+
+/****IMAGES****/
+.nav-dog-img {
+  height: 25px;
+  width: 25px;
+}
+
+.main-dog-figure {
+    padding-bottom: 20px;
+  }
+
+.all-dogs {
+  border-radius: 50%;
+  border: 2px solid #25afc4;
+}
+
+.main-dog {
+  height: 200px;
+  width: 200px;
+}
+
+.three-dogs {
+  height: 165px;
+  width: 165px;
+}
+
+.social-media-icons img{
+  height: 25px;
+  width: 25px;
+}
+
+.three-dog-figures {
+  margin-bottom: 20px;
+}
+
+
+/****Media Queries****/
+@media screen and (max-width: 799px) {
+  article {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  article{
+    width: 32.3%;
+    vertical-align: top;
+    display: inline-block;
+  }
+/*
+  .main-dog {
+    height: 230px;
+    width: 230px;
+  }
+
+  .main-dog-figure {
+    padding: 5px 0px 20px 0px;
+  }
+
+  .social-media-icons img{
+    height: 40px;
+    width: 40px;
+  }
+
+  .three-dog-figures {
+    padding: 5px 20px 15px 20px;
+  }
+
+}*/
