@@ -1,1 +1,1 @@
-##This project utilized HTML5, CSS, and responsive design to achieve the finished product.
+##This project utilized HTML5, CSS to create the page and flex-box to achieve responsive design.

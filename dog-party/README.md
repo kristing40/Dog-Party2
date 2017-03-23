@@ -1,1 +1,1 @@
-##This project utilized HTML5, CSS, and responsive design to achieve the finished product.
+##This project utilized HTML5 and CSS to create the web page and media queries to achieve its responsive design.
