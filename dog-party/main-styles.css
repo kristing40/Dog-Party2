@@ -36,12 +36,11 @@ nav {
   margin-top: -40px;
 }
 
-
-.nav-li {
+nav ul {
   float: right;
   margin-right: 20px;
-  list-style-type: none;
 }
+
 
 .nav-a-tag {
   display: inline;
